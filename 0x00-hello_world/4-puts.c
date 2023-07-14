@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - entry point of the program
  *
  * Description - this program prints out the
