@@ -17,7 +17,7 @@ int main(void)
 			i = 96;
 		else
 			if (i < 10)
-				putchar(48 + x);
+				putchar(48 + i);
 			else
 				putchar(i);
 
