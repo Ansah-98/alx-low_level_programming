@@ -2,8 +2,7 @@
 /*
  * main - entry point of the program
  *
- * Description - this program prints out the 
- * "programming is like building a muiltilingual puzzle"
+ * Description - this program prints out the
  *
  * Return: Always 0 (success)
  */
