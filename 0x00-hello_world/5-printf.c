@@ -3,7 +3,7 @@
 /**
 *main - Entry point of the program
 *
-* Description: Prints the message 
+*Description: Prints the message 
 *"with proper grammar, but the outcome is a piece of art,"
 *followed by a new line.
 *
