@@ -10,6 +10,11 @@
  */
 int main(void)
 {
-	putchar("abcdefghijklmnopqrstuvwxyz\n");
+	int alpha;
+
+	alpha = "abcdefghijklmnopqrstuvwxyz\n"
+
+	putchar(alpha);
+
 	return (0);
 }
