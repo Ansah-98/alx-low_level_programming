@@ -15,7 +15,7 @@ int main(void)
 
 	for (i = 97 ; i <= j ; i++)
 	{
-		if ((i != j) && (i != 101 || i != 113))
+		if ((i != j) && (i != 101 && i != 113))
 			putchar(i);
 		else if (i == j)
 			putchar(10);
