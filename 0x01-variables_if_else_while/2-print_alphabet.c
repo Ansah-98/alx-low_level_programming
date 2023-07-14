@@ -10,11 +10,15 @@
  */
 int main(void)
 {
-	int alpha;
+	int i;
+	int j = 123;
 
-	alpha = "abcdefghijklmnopqrstuvwxyz\n"
-
-	putchar(alpha);
-
+	for (i = 97 ; i <= j ; i++)
+	{
+		if (i != j)
+			putchar(i);
+		else
+			putchar(10)
+	}
 	return (0);
 }
