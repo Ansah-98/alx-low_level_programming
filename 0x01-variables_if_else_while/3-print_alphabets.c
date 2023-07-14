@@ -17,13 +17,13 @@ int main(void)
 	{
 		putchar(i);
 	}
-	j = 91
+	j = 91;
 	for (i = 65; i <= j; i++)
 	{
 		if (i != 91)
-			putchar(i)
+			putchar(i);
 		else
-			putchar(10)
+			putchar(10);
 	}
 	return (0);
 }
