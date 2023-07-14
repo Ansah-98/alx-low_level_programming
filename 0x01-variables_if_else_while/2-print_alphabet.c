@@ -18,7 +18,7 @@ int main(void)
 		if (i != j)
 			putchar(i);
 		else
-			putchar(10)
+			putchar(10);
 	}
 	return (0);
 }
