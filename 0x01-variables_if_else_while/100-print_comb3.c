@@ -23,6 +23,8 @@ int main(void)
 		{
 			putchar(i);
 			putchar(j);
+			putchar(',');
+			putchar(' ');
 		}
 		i++;
 		j = i + 1;
