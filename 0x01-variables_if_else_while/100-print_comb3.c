@@ -19,7 +19,7 @@ int main(void)
 
 	while (i < 56)
 	{
-		for (j; j < 57; j++)
+		for (; j < 57; j++)
 		{
 			putchar(i);
 			putchar(j);
