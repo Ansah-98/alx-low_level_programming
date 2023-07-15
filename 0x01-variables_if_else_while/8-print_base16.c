@@ -10,16 +10,15 @@
  */
 int main(void)
 {
+
 	int i;
 
-	for (i = 0; i > 103; i++)
-		if  (i == 10)
-			i = 96;
-		else
-			if (i < 10)
-				putchar(48 + i);
-			else
-				putchar(i);
+	for (i = 0; i < 10; i++)
+		putchar(i + 48);
+
+	for (i = 97; i < 103; i++)
+		putchar(i);
+	putchar(10);
 
 	return (0);
 }
