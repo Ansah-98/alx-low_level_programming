@@ -1,17 +1,12 @@
-/**
- * main - main entry of the program
- *
- *
- *
- * Return: always return 0 (success)
- *
- */
-
-
 #include "main.h"
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
