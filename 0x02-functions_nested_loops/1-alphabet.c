@@ -7,7 +7,7 @@
  * Description: This function prints out all the lowercase alphabets
  *
  */
- 
+
 void print_alphabet(void)
 {
 	char c;
