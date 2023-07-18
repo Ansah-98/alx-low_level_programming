@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ *
+ *Return: putchar(c)
+ *
+ *
+ */
 void print_alphabet(void)
 {
 	char c;
