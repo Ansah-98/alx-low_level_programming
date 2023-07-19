@@ -3,9 +3,9 @@
 /**
  * _islower - prints lowercase and new line
  *
- * Parameter: takes an integer value or a character value
+ * @c: takes an integer value or a character value
  *
- * Returns: return 0 when is not lower case return 1 when lower case
+ * Return: return 0 when is not lower case return 1 when lower case
  *
  */
 
