@@ -13,8 +13,8 @@ int print_last_digit(int n)
 {
 	if (n % 10 == 8)
 	{
-		_putchar('8')
-		return 8
+		_putchar('8');
+		return 8;
 	}
 	else if (n >= 0)
 	{
