@@ -11,12 +11,7 @@
 
 int print_last_digit(int n)
 {
-	if (n % 10 == 8)
-	{
-		_putchar('8');
-		return 8;
-	}
-	else if (n >= 0)
+	 if (n >= 0)
 	{
 		_putchar((n % 10) + '0');
 
@@ -25,7 +20,7 @@ int print_last_digit(int n)
 
 	else
 	{
-		_putchar((-n % 10) +  '0');
+		_putchar((n % 10 * -1) +  '0');
 		return (-n % 10);
 	}
 }
