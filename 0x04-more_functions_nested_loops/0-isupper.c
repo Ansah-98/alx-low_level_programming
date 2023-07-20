@@ -1,13 +1,15 @@
 /**
- *
- * _isuper : checks if a character is uppercased or not
+ * _isupper - return no shit fuck this shit
  *
  * @c: receives a character
  *
+ * Description: check some stupid shit
+ *
  * Return: 0 or 1 depending if upper or lower
+ *
  */
 
-int _isuper(int c)
+int _isupper(int c)
 {
 	if (c > 64 && c < 91)
 		return (1)

@@ -3,5 +3,5 @@ fndef MAIN_H
 
 #include <stdio.h>
 
-int _isuper(int c);
+int _isupper(int c);
 #endif /* MAIN_H */
