@@ -1,5 +1,5 @@
 /**
- * print_numbers - return no shit fuck this shit
+ * print_most_numbers - return no shit fuck this shit
  *
  *
  * Return: 0 or 1 depending if upper or lower
@@ -7,7 +7,7 @@
  */
 #include "main.h"
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
