@@ -1,7 +1,7 @@
 /**
  * print_line - return no shit fuck this shit
  *
- * @n
+ * @n: positive number
  *
  *
  * Return: 0 or 1 depending if upper or lower
@@ -11,6 +11,10 @@
 
 void print_line(int n)
 {
+	if (n < 0)
+	{
+		n = n * -1;
+	}
 	while (n != 0)
 	{
 		_putchar(95);
