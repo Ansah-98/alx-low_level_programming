@@ -1,10 +1,10 @@
 /**
- * main - return no shit fuck this shit
+ * main - prints numbers from 1-100 and checks its whatever i dont care next problem
  *
  *
- * Return: 0 or 1 depending if upper or lower
+ * Return: Always 0 (Success)
  *
- */
+ */i
 #include "main.h"
 #include <stdio.h>
 
@@ -16,17 +16,17 @@ int main(void)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("fizz buzz");
+			printf("FizzBuzz");
 			printf(" ");
 			continue;
 		}
 		else if (i % 3 == 0)
 		{
-			printf("fizz");
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("buzz");
+			printf("Buzz");
 		}
 		else
 		{
