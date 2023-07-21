@@ -1,7 +1,7 @@
 /**
- * print_line - return no shit fuck this shit
+ * print_square - return no shit fuck this shit
  *
- * @n: positive number
+ * @size: positive number
  *
  *
  * Return: 0 or 1 depending if upper or lower
@@ -9,25 +9,21 @@
  */
 #include "main.h"
 
-void print_line(int n)
+void print_square(int size)
 {
 	int j;
 	int i;
 
-	i = n;
-	j = n;
-	if (n > 0)
+
+	if (size > 0)
 	{
-		(iwhile i != 0)
+		for (i = 0; i < size; i++)
 		{
-			while (n != 0)
+			for (j = 0; j < size; j++)
 			{
 				_putchar('#');
-				--n;
 			}
-			n = j;
-			i = i - 1;
-			_putchar('\n')
+			_putchar('\n');
 		}
 	}
 	_putchar('\n');
