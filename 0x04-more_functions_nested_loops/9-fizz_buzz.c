@@ -1,10 +1,10 @@
 /**
- * main - prints numbers from 1-100 and checks its whatever i dont care next problem
+ * main - prints numbers from 1-100 and checks its whatever
  *
  *
  * Return: Always 0 (Success)
  *
- */i
+ */
 #include "main.h"
 #include <stdio.h>
 
