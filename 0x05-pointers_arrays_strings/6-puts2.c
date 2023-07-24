@@ -15,6 +15,7 @@
 void puts2(char *str)
 {
 	int i;
+	int a;
 
 	i = strlen(str);
 	a = 0;
