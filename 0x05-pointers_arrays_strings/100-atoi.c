@@ -1,9 +1,7 @@
 /**
  * _strcpy - return no shit fuck this shit
  *
- * @src: receives a character:
- *
- * @dest: dont even about this bullshit
+ * @s: dont care just code
  *
  * Description: check some stupid shit
  *
@@ -17,5 +15,5 @@
 
 int _atoi(char *s)
 {
-	return atoi(str);int _atoi(char *s);
+	return atoi(s);
 }
