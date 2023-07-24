@@ -20,7 +20,7 @@ void puts2(char *str)
 	i = strlen(str);
 	a = 0;
 
-	while ( a < i)
+	while (a < i)
 	{
 		putchar(str[a]);
 		a =  a + 2;
