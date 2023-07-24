@@ -1,10 +1,9 @@
 /**
  * swap_int - return no shit fuck this shit
  *
- * @a: receives a character
+ * @a: receives a character:
  *
- *
- * @b
+ * @b: damn you just disturbing
  *
  * Description: check some stupid shit
  *
