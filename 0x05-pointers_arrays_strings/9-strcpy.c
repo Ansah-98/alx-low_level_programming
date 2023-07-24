@@ -14,7 +14,7 @@
 #include <string.h>
 #include <stdio.h>
 
-char *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src)
 {
 	strcpy(src, dest);
 
