@@ -21,6 +21,6 @@ void puts2(char *str)
 	for (; i > 0; i--)
 	{
 		putchar(str[i - 1]);
-		putchar('\n')
+		putchar('\n');
 	}
 }
