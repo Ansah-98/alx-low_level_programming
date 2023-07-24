@@ -1,4 +1,4 @@
-i/**
+/**
  * print_array - return no shit fuck this shit
  *
  * @a: receives a character:
