@@ -21,5 +21,7 @@ void print_array(int *a, int n)
 	for (i = 0; i < strlen(a); i++)
 	{
 		putchar(a[i] + '0');
+		if (i != strlen(a) - 1)
+			putchar(',');
 	}
 }
