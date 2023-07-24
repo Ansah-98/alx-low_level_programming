@@ -1,7 +1,7 @@
 /**
  * reset_to_98 - return no shit fuck this shit
  *
- * @*n: receives a character
+ * @n: receives a character
  *
  * Description: check some stupid shit
  *
