@@ -18,10 +18,10 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < strlen(a); i++)
+	for (i = 0; i < n; i++)
 	{
 		putchar(a[i] + '0');
-		if (i != strlen(a) - 1)
+		if (i != n - 1)
 			putchar(',');
 	}
 }
