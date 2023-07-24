@@ -15,7 +15,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int _atoi(char *s);
+int _atoi(char *s)
 {
 	return atoi(str);int _atoi(char *s);
 }
