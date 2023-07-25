@@ -1,5 +1,5 @@
 /**
- * _strcpy - return no shit fuck this shit
+ * _atoi - return no shit fuck this shit
  *
  * @s: dont care just code
  *
@@ -15,5 +15,30 @@
 
 int _atoi(char *s)
 {
-	return atoi(s);
+	int i;
+	int sign;
+	int result;
+	int digit;
+
+	result  = 0;
+	sign = 1;
+	i = 0;
+
+	while (!(s[i] >= '0' && s[i] <= '9'))
+		i++;
+	if (s[i - 1] == '-')
+		sign = -1;
+
+	while (s[i] != '\O' && (s[i] >= '0' && s[i] <= '9'))
+	{
+		digit = s[i] - '0';
+
+		if (result > (INT_MAX - digit) / 10)
+		{
+			return (sign == 1 ? INT_MAX : INT_MIN);
+		}
+		result = (result * 10) + digit;
+		i++;
+	}
+	return (sign * result);
 }
