@@ -29,10 +29,10 @@ int _atoi(char *s)
 	{
 		if (s[i] == '\0')
 			return (0);
+		if s(s[i] == '-')
+			sign *= -1;
 		i++;
 	}
-	if (s[i - 1] == '-')
-		sign = -1;
 
 	while (s[i] != '\0' && (s[i] >= '0' && s[i] <= '9'))
 	{
