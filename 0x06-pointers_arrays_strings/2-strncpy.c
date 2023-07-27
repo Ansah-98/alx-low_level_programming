@@ -16,19 +16,5 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	size_t dest len;
-	size_t src_len;
-	char *resized_dest;
-
-	dest_len = strlen(dest);
-	src_len = strlen(src);
-
-	if (dest_len < src_len)
-	{
-		resized_dest = realloc(dest, src_len + 1);
-		if (resized_dest != NULL)
-			dest = resized_dest;
-		strncpy(dest, src, n);
-		return (dest);
-	}
+	return (strncpy(dest,src,n));
 }
