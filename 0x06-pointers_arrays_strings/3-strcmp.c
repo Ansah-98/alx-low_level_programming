@@ -1,11 +1,10 @@
 /**
- * _strncpy - return no shit fuck this shit
+ * _strcmp - return no shit fuck this shit
  *
- * @src: receives a character:
+ * @s1: receives a character:
  *
- * @dest: damn you just disturbing
+ * @s2: damn you just disturbing
  *
- * @n : number of times
  *
  * Description: check some stupid shit
  *
