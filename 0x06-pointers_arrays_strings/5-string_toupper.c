@@ -14,6 +14,8 @@
 
 char *string_toupper(char *str)
 {
+	if (str == NULL)
+		return (NULL);
 	for (; *str; str++)
 	{
 		*str = toupper((unsigned char)*str);
