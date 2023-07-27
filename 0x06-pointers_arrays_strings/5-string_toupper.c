@@ -14,12 +14,14 @@
 
 char *string_toupper(char *str)
 {
+	char *ptr;
+
 	if (str == NULL)
 		return (NULL);
+	ptr = str;
 	for (; *str; str++)
 	{
 		*str = toupper((unsigned char)*str);
 	}
-
-	return (str);
+	return (ptr);
 }
