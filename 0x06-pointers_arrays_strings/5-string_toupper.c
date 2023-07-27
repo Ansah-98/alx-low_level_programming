@@ -16,7 +16,7 @@ char *string_toupper(char *str)
 {
 	for (; *str; *str++)
 	{
-		*str = toupper((unsigned char)*str)
+		*str = toupper((unsigned char)*str);
 	}
 
 	return (str);
