@@ -1,5 +1,5 @@
 /**
- * string_touppper - return no shit fuck this shit
+ * string_toupper - return no shit fuck this shit
  *
  * @str: receives a character:
  *
