@@ -1,9 +1,9 @@
 /**
- * _strcmp - return no shit fuck this shit
+ * reverse_array - return no shit fuck this shit
  *
- * @s1: receives a character:
+ * @a: receives a character:
  *
- * @s2: damn you just disturbing
+ * @n: damn you just disturbing
  *
  *
  * Description: check some stupid shit
@@ -13,13 +13,13 @@
  */
 #include <string.h>
 
-int _strcmp(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int middle;
 	int i;
 	int temp;
 
-	middle = (n % 2 == 0 ? n/2 : (n - 1) / 2);
+	middle = (n % 2 == 0 ? n / 2 : (n - 1) / 2);
 
 	for (i = 0; i < middle; i++)
 	{
@@ -28,5 +28,4 @@ int _strcmp(int *a, int n)
 		a[n - i - 1] = temp;
 
 	}
-	return (a);
 }
