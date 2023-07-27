@@ -1,5 +1,5 @@
 /**
- * _strncat - return no shit fuck this shit
+ * _strncpy - return no shit fuck this shit
  *
  * @src: receives a character:
  *
@@ -14,11 +14,11 @@
  */
 #include <string.h>
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	if ((size_t)n > strlen(src))
 	{
-		return (strcat(dest, src));
+		return (strcpy(dest, src));
 	}
 	else
 	{
