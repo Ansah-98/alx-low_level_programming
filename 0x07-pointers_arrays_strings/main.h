@@ -11,4 +11,5 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 int _putchar(char c);
 char *_strchr(char *s, char c);
+void set_string(char **s, char *to);
 #endif /* MAIN_H */
