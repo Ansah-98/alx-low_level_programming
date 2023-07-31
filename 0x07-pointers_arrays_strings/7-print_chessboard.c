@@ -1,9 +1,8 @@
 /**
- * _strstr - return no shit fuck this shit
+ * print_chessboard - return no shit fuck this shit
  *
- * @haystack: receives a character:
+ * @a: receives a character:
  *
- * @needle: damn you just disturbing
  *
  * Description: check some stupid shit
  *
