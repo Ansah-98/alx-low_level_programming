@@ -1,8 +1,9 @@
 /**
- * print_chessboard - return no shit fuck this shit
+ * print_diagsums - return no shit fuck this shit
  *
  * @a: receives a character:
  *
+ * @size: this is us
  *
  * Description: check some stupid shit
  *
