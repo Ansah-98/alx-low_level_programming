@@ -8,8 +8,9 @@
  * Description: check some stupid shit
  *
  * Return: 0 or 1 depending if upper or lower
- *
  */
+
+
 #include <stdio.h>
 #include <string.h>
 void set_string(char **s, char *to)
