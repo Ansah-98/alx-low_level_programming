@@ -1,9 +1,9 @@
 /**
- * print_diagsums - return no shit fuck this shit
+ * set_string - return no shit fuck this shit
  *
- * @a: receives a character:
+ * @s: receives a character:
  *
- * @size: this is us
+ * @to: this is us
  *
  * Description: check some stupid shit
  *
