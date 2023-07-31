@@ -1,9 +1,9 @@
 /**
- * _strpbrk - return no shit fuck this shit
+ * _strstr - return no shit fuck this shit
  *
- * @s: receives a character:
+ * @haystack: receives a character:
  *
- * @accept: damn you just disturbing
+ * @needle: damn you just disturbing
  *
  * Description: check some stupid shit
  *
