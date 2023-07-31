@@ -10,4 +10,5 @@ char* _strncpy(char* dest, const char* src, int n);
 void reverse_array(int *a, int n);
 char *string_toupper(char *);
 int _putchar(char c);
+char *_strchr(char *s, char c);
 #endif /* MAIN_H */
