@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * factorial - prints string in reverse
+ * @n: string
+ *
+ * Return: nothing
+ */
+
+int factorial(int n)
+{
+	if (n == 0)
+		return (1);
+	else
+		return (n * factorial(n - 1));
+	
+}
