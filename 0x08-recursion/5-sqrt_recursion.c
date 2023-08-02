@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _pow_recursion - prints string in reverse
- * @x: string
+ * _sqrt_recursion - prints string in reverse
+ * @n: string
  *
- * @y: dont even care
  *
  * Return: nothing
  */
