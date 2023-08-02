@@ -12,9 +12,7 @@
 #include <string.h>
 void _puts_recursion(char *s)
 {
-	int i;
-
-	_putchar(s);
+	_putchar(*s);
 
 	if (*(s + 1) == '\0')
 	{
