@@ -22,12 +22,12 @@ int _sqrt_recursion(int n)
  * Return: square root or -1
  *
  */
-int get_sqrt(int n, int c)
+int check_prime(int n, int a)
 {
-	if (c * c == n)
-		return (c);
-	else if (c > n / 2)
-		return (-1);
+	if (n % a == 0 && a != n)
+		return (0);
+	else if (a > n)
+		return (1);
 	else
-		return (get_sqrt(n, ++c));
+		return (check_prime(n, ++a));
 }
