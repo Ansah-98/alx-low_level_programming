@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
  * get_sqrt - get square root of a number recursively
  * @n: number
  * @c: possible square root
- * 
+ *
  * Return: square root or -1
  *
  */
@@ -29,5 +29,5 @@ int get_sqrt(int n, int c)
 	else if (c > n / 2)
 		return (-1);
 	else
-		return (get_sqrt(n, ++c));	
+		return (get_sqrt(n, ++c));
 }
