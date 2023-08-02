@@ -17,7 +17,7 @@ void _puts_recursion(char *s)
 		_putchar('\n');
 		return;
 	}
-	else if(s)
+	else if (s)
 	{
 		_putchar(*s);
 		_puts_recursion(s + 1);
