@@ -12,7 +12,6 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 #include <string.h>
 int main(int  argc, char *argv[])
 {
