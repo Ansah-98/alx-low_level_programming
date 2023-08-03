@@ -12,7 +12,7 @@
  */
 #include "main.h"
 #include <string.h>
-int main(int  argc, char __attributte__((unused)) *argv[])
+int main(int  argc, char __attribute__((unused)) *argv[])
 {
 	int i;
 

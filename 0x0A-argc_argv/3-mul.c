@@ -10,11 +10,17 @@
  * Return: 0 or 1 depending if upper or lower
  *
  */
+#include <stdlib.h>
 #include "main.h"
 #include <string.h>
-int main(int  argc, char __attributte__((unused)) *argv[])
+int main(int  argc, char *argv[])
 {
-	printf("%d\n",(int)argv[1] * (int)argv[2]);
+	if (argc != 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	printf("%d\n",atoi(argv[1]) * atoi(argv[2]));
 
-	return (0)
+	return (0);
 }
