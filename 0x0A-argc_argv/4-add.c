@@ -10,6 +10,7 @@
  * Return: 0 or 1 depending if upper or lower
  *
  */
+#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 #include <string.h>
