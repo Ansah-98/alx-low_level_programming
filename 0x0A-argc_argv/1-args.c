@@ -10,10 +10,11 @@
  * Return: 0 or 1 depending if upper or lower
  *
  */
+#include <stdio.h>
 #include <string.h>
 int main(int  argc, char __attribute__((unused)) *argv[])
 {
-	printf("%d\n", arg - 1);
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
