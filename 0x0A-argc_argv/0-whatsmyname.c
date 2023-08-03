@@ -10,6 +10,7 @@
  * Return: 0 or 1 depending if upper or lower
  *
  */
+#include <stdio.h>
 #include <string.h>
 int main(int  __attribute__((unused)) argc, char *argv[])
 {
