@@ -7,7 +7,7 @@
  *
  * description: dont know a lot
  *
- * Return : returns an array or null
+ * Return: returns an array or null
  */
 #include <stdlib.h>
 #include <stdio.h>
@@ -24,5 +24,7 @@ char *create_array(unsigned int size, char c)
 	a = malloc(sizeof(char) * size);
 	for (i = 0; i < size; i++)
 		a[i] = c;
+	if (a == NULL)
+		return (NULL);
 	return (a);
 }
