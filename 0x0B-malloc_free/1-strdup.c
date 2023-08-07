@@ -16,6 +16,8 @@ char *_strdup(char *str)
 	char *a;
 
 	i = (int)strlen(str);
+	if (*str == NULL || *str == "")
+		return (NULL);
 
 	if (i == 0)
 		return (NULL);
