@@ -21,7 +21,7 @@ char *argstostr(int ac, char **av)
 	s = malloc(((int)sizeof(char) * (ac - 1) * 2) + 1);
 	for (i = 2; i < ac * 2; i += 2)
 	{
-		s[(i - 2) / 2] = *av[i / 2];
+		s[(i - 2) / 2] = av[i / 2];
 		s[(i / 2) + 1] = '\n';
 	}
 	s[((ac - 1) * 2) + 1] = '\0';
