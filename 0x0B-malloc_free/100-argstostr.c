@@ -22,9 +22,9 @@ char *argstostr(int ac, char **av)
 	for (i = 2; i < ac * 2; i += 2)
 	{
 		s[(i - 2) / 2] = av[i / 2];
-		s[(i / 2) + 1] = '\n';
+		s[(i / 2) + 1] = "\n";
 	}
-	s[((ac - 1) * 2) + 1] = '\0';
+	s[((ac - 1) * 2) + 1] = "\0";
 	if (s == NULL)
 		return (NULL);
 	return (s);
