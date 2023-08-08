@@ -20,12 +20,12 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 	s = malloc(((int)sizeof(char) * (ac - 1) * 2) + 1);
+	s[0] = '\0';
 	for (i = 2; i < ac * 2; i += 2)
 	{
 		strcat(s, av[i / 2]);
-		s[(i / 2) + 1] = '\n';
+		strcat(s, '\n');
 	}
-	s[((ac - 1) * 2) + 1] = '\0';
 	if (s == NULL)
 		return (NULL);
 	return (s);
