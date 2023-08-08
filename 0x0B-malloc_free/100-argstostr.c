@@ -19,7 +19,7 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-	s = malloc(((int)sizeof(char *) * (ac - 1) * 2) + 1);
+	s = malloc(((int)sizeof(char) * (ac - 1) * 2) + 1);
 	for (i = 2; i < ac * 2; i += 2)
 	{
 		strcat(s, av[i / 2]);
