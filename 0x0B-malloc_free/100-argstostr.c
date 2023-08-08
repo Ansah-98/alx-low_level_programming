@@ -28,5 +28,5 @@ char *argstostr(int ac, char **av)
 	s[((ac - 1) * 2) + 1] = '\0';
 	if (s == NULL)
 		return (NULL);
-	return (*s);
+	return (s);
 }
