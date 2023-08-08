@@ -21,12 +21,12 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 	for (i = 0; i < ac; i++)
-		total_length += strlen(av[i]) + 1;
+		total_length += strlen(av[i]) + ;
 	s = malloc(total_length + 1);
 	s[0] = '\0';
-	for (i = 2; i < ac * 2; i += 2)
+	for (i = 0; i < ac; i++)
 	{
-		strcat(s, av[i / 2]);
+		strcat(s, av[i]);
 		strcat(s, "\n");
 	}
 	if (s == NULL)
