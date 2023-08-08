@@ -10,6 +10,7 @@
  * Return: returns a string pointer or null
  *
  */
+#include <stdlib.io>
 char *argstostr(int ac, char **av)
 {
 	int i;
