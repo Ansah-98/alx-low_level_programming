@@ -1,9 +1,9 @@
 /**
  * malloc_checked - returns a pointer
  *
- * @b:yh some number 
- * 
- * description: lets describe a pointer 
+ * @b:yh some number
+ *
+ * description: lets describe a pointer
  *
  * Return: returns nothing special
  *
