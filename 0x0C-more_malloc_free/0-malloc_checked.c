@@ -8,11 +8,10 @@
  * Return: returns nothing special
  *
  */
-
 #include <stdlib.h>
 void *malloc_checked(unsigned int b)
 {
-	int *s;
+	void *s;
 
 	s = malloc(b);
 
