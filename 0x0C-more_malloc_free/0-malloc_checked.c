@@ -12,6 +12,14 @@
 #include <stdlib.h>
 void *malloc_checked(unsigned int b)
 {
-	s = malloc(b)
+	int *s;
+
+	s = malloc(b);
+
+	if (s == NULL)
+	{
+		free(s);
+		exit(98);
+	}
 	return (s);
 }
