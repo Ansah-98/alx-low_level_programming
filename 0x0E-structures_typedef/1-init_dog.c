@@ -1,7 +1,6 @@
-#ifndef _1_INIT_DOG
-#define _1_INIT_DOG
 /**
  * init_dog - naming a dog or something
+ * @d: struct type
  * @name: guess the  name again
  *
  * @age: you already know
@@ -19,4 +18,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		(*d).owner = owner;
 	}
 }
-#endif
