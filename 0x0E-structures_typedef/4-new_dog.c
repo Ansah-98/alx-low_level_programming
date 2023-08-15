@@ -1,16 +1,18 @@
 /**
+ * new_dog - damn this took too long
  *
- *
- *
- *
- *
+ * @name: name of dog
+ * @age: same fact
+ * @owner: well gotta be  a good owner
+ * Description: damn this thing mosquitoes chewing
+ * Returns: a dog struct
  */
 #include <stdlib.h>
 #include <string.h>
 #include "dog.h"
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	
+
 	dog_t *dog;
 
 	if (name == NULL || age < 0 || owner == NULL)
@@ -18,7 +20,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	dog = (dog_t *)malloc(sizeof(dog_t));
 	if (dog == NULL)
-		return NULL;
+		return (NULL);
 	dog->name = (char *)malloc(strlen(name) + 1);
 	dog->owner = (char *)malloc(strlen(owner) + 1);
 	if (dog->name == NULL || dog->owner == NULL)
