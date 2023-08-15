@@ -8,13 +8,13 @@
  * @age: fun fact a day in a mans life = a weeks in a dogs life
  * @owner: so be a good owner please
  *
- */
-typedef struct dog
+ */ 
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-} ;
+};
 void print_dog(struct dog *d);
 void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
