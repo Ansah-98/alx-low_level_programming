@@ -1,5 +1,4 @@
 /**
- *
  * free_dog - Frees dogs.
  *
  * @d: The dog to be freed.
