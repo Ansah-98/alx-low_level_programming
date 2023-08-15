@@ -8,7 +8,7 @@
  * @age: fun fact a day in a mans life = a weeks in a dogs life
  * @owner: so be a good owner please
  *
- */ 
+ */
 struct dog
 {
 	char *name;
