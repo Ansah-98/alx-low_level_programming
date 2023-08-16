@@ -11,7 +11,7 @@
 #include <stdlib.h>
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	if (!size || array || action)
+	if (!size || !array || !action)
 		return;
 	while (size--)
 		action(*array++);
