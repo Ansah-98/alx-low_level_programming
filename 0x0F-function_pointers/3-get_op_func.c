@@ -4,6 +4,7 @@
  * @s: string
  * Return: pointer
  */
+#include <stdlib.h>
 #include "3-calc.h"
 int (*get_op_func(char *s))(int, int)
 {
@@ -18,7 +19,7 @@ int (*get_op_func(char *s))(int, int)
 	int i;
 
 	i = 0;
-	while (ops[i].op != NULL && strlen(s) == 1)
+	while (ops[i].op != NULL && s[1] == '\0')
 	{
 		if (ops[i].op[0] == *s)
 			return (ops[i].f);
