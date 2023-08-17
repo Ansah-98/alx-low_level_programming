@@ -1,6 +1,9 @@
 /**
- *
- *
+ * main - just calculates arithmetic
+ * @argc: number of character
+ * 	provided at console
+ * @argv: array of characters
+ * Return: returns a number
  *
  */
 #define SRVG(X, S) (argv[X][0] == S)
@@ -12,6 +15,7 @@ int main(int argc,char *argv[])
 	int a;
 	int b;
 	char *op;
+	int resulted;
 
 	if (argc != 4)
 	{

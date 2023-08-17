@@ -3,10 +3,10 @@
  *
  *
  */
-#include "3-calc"
+#include "3-calc.h"
 int (*get_op_func(char *s))(int, int)
 {
-	opt_t ops[] = {
+	op_t ops[] = {
 		{"+", op_add},
 		{"-",op_sub},
 		{"*", op_mul},
@@ -17,11 +17,11 @@ int (*get_op_func(char *s))(int, int)
 	int i;
 
 	i = 0;
-	while (ops[i].op != NULL && s[1] == '\0')
+	while (ops[i].op != NULL && strlen(s) == 1)
 	{
-		if (ops[i].ops == *s)
+		if (ops[i].op[0] == *s)
 			return (ops[i].f);
-		i++
+		i++;
 	}
 	return (NULL);
 		
