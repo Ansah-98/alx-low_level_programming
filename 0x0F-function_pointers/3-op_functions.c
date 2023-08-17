@@ -15,7 +15,7 @@ int op_add(int a, int b)
  * op_add - sub
  * @a: first number
  * @b: second number
- * Return: substraction 
+ * Return: substraction
  *
  */
 int op_sub(int a, int b)
@@ -25,7 +25,7 @@ int op_sub(int a, int b)
 
 /**
  * op_mul - multiplication
- * @a: first number 
+ * @a: first number
  * @b: second number
  * Return: multiplication
  *

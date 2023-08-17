@@ -1,17 +1,16 @@
-
+#define SRVG(X, S) (argv[X][0] == S)
 /**
  * main - just calculates arithmetic
  * @argc: number of character
- * 	provided at console
+ *	provided at console
  * @argv: array of characters
  * Return: returns a number
  *
  */
-#define SRVG(X, S) (argv[X][0] == S)
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
 	int a;
 	int b;

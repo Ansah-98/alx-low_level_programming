@@ -1,3 +1,5 @@
+#ifndef _3_CALC_H
+#define _3_CALC_H
 /**
  * struct op - Struct op
  * @op: operator
@@ -5,8 +7,6 @@
  *
  *
  */
-#ifndef _3_CALC_H
-#define _3_CALC_H
 typedef struct op
 {
 	char *op;
