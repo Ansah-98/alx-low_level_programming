@@ -17,10 +17,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	while (i)
 	{
 		s = va_arg(ap, char *);
-		if (s)
-			printf("%s", s);
-		else
+		if (!s)
 			printf("nil");
+		else
+			printf("%s",s);
 		if (!(separator) || i == 1)
 		{
 			i--;
