@@ -29,6 +29,12 @@ int main(int argc, char *argv[])
 	if ((SRVG(2, '/') || SRVG(2, '%')) && b == 0)
 	{
 		printf("Error\n");
+		exit(100);
+	}
+
+	if (!(get_op_func(op)))
+	{
+		printf("Error\n");
 		exit(99);
 	}
 	resulted = (get_op_func(op))(a, b);
