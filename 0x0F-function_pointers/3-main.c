@@ -1,3 +1,4 @@
+
 /**
  * main - just calculates arithmetic
  * @argc: number of character
