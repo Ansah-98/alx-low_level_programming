@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "lists.h"
 
-/**d);
+/**
  * reverse_listint - I will be home for the holidays
- * @head: and to those I used to know 
+ * @head: and to those I used to know
  * Return: gotta new knowledgn
  *
  */
