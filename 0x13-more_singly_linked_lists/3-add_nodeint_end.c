@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include "lists.h"
 #include <stdlib.h>
+/**
+ * add_nodeint_end  - nothing really special
+ * @head: head offcourse
+ * @n: thats the trtuh
+ *
+ * Return: dont care 
+ *
+ *
+ *
+ */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
