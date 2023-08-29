@@ -6,7 +6,7 @@
  * @head: head offcourse
  * @n: thats the trtuh
  *
- * Return: dont care 
+ * Return: dont care
  *
  *
  *
