@@ -1,7 +1,15 @@
 #include <stdlib.h>
 #include "lists.h"
 #include <stdlib.h>
-
+/**
+ * insert_nodeint_at_index - doubt I care
+ * @head: just remember
+ * @idx: why i call you
+ * @n: we can do that
+ *
+ * Return: I'm with it
+ *
+ */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
