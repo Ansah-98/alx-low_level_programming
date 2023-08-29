@@ -2,7 +2,14 @@
 #include "lists.h"
 #include <stdlib.h>
 
-
+/**
+ * delete_nodeint_at_index - life is what you make
+ * @head: Im just tryna make it  straightup
+ * @index: cole world
+ * Return: You gotta learn something
+ *
+ *
+ */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *current, *temp;
