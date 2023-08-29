@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "list.h"
+#include "lists.h"
+#include <stdlib.h>
 
 /**
  * add_nodeint - nothing special again
