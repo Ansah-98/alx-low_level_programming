@@ -2,7 +2,7 @@
 #include "lists.h"
 /**
  * print_listint - does nothing special
- * @h: pointer I guess 
+ * @h: pointer I guess
  *
  * Return: returns counting
  *
