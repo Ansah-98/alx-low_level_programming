@@ -3,7 +3,7 @@
 
 /**
  * flip_bits - flipping bits I guess
- * @n: the number 
+ * @n: the number
  * @m: bit to flip
  * Return: the flipped bit
  *
